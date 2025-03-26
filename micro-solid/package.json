@@ -17,6 +17,7 @@
     "@tanstack/solid-store": "^0.7.0",
     "@tanstack/store": "^0.7.0",
     "solid-js": "^1.9.4",
+    "solid-mod-fed": "file:",
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
