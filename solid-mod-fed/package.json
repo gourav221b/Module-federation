@@ -1,0 +1,27 @@
+{
+  "name": "solid-mod-fed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 3001",
+    "build": "vite build && tsc",
+    "serve": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@module-federation/vite": "^1.1.9",
+    "@tailwindcss/vite": "^4.0.6",
+    "@tanstack/router-devtools": "^1.109.2",
+    "@tanstack/router-plugin": "^1.109.2",
+    "@tanstack/solid-router": "^1.110.0",
+    "@tanstack/solid-store": "^0.7.0",
+    "@tanstack/store": "^0.7.0",
+    "solid-js": "^1.9.4",
+    "tailwindcss": "^4.0.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.11",
+    "vite-plugin-solid": "^2.11.2"
+  }
+}
