@@ -13,5 +13,17 @@ export default defineConfig({
     globals: true,
     environment: "jsdom",
   },
+build:{
+  target:"esnext"
+},
+server: {
+  proxy: {
+    "/remoteEntry.js": {
+      target: "https://solid-js.netlify.app",
+      changeOrigin: true,
+      secure: false,
+    },
+  },
+}
 
 });

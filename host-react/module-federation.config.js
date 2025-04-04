@@ -17,7 +17,7 @@ export default {
   remotes: {
     SolidModFed: remoteConfig(
       "SolidModFed",
-      "http://localhost:3001/remoteEntry.js"
+      "https://solid-js.netlify.app/remoteEntry.js"
     ),
   },
   shared: {
